@@ -1,0 +1,140 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+body {
+  background-color: #eee;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #11999e;
+}
+.contenar {
+  max-width: 1170px;
+  background-color: #e4f9f5;
+  margin: 0 auto;
+  padding: 20px;
+}
+.mainHeading {
+  border-bottom: 3px solid rgba(0, 0, 0, 0.24);
+  padding-bottom: 20px;
+}
+.headingLeft {
+  display: flex;
+  align-items: center;
+}
+.profile {
+  height: 150px;
+  width: 150px;
+  border: 3px solid #fff;
+  border-radius: 50%;
+}
+.heading2 {
+  margin-left: 30px;
+}
+.headingRight a {
+  display: block;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #11999e;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 500;
+  margin: 5px 0;
+}
+.mainHeading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.headingRight a:hover {
+  color: red;
+  text-decoration: underline;
+}
+.personal {
+  display: flex;
+
+  padding: 40px 80px;
+  color: #11999e;
+  border-bottom: 3px solid rgba(0, 0, 0, 0.24);
+}
+.personalLeft {
+  width: 30%;
+}
+.personalRight {
+  width: 70%;
+}
+.personalLeft h3 {
+  font-size: 22px;
+}
+.location {
+  display: flex;
+  padding: 40px 80px;
+  border-bottom: 3px solid rgba(0, 0, 0, 0.24);
+}
+.locationLaft {
+  width: 30%;
+}
+.locationLaft h3 {
+  font-size: 22px;
+}
+.locationRight p {
+  margin-bottom: 20px;
+}
+.locationRight p span {
+  color: #11999e;
+  display: block;
+  font-weight: 600;
+}
+
+.locationRight {
+  width: 70%;
+}
+.education {
+  display: flex;
+  padding: 40px 80px;
+  border-bottom: 3px solid rgba(0, 0, 0, 0.24);
+}
+.educationLeft {
+  width: 30%;
+}
+.educationRight {
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+}
+.award {
+  display: flex;
+  padding: 40px 80px;
+  border-bottom: 3px solid rgba(0, 0, 0, 0.24);
+}
+.awardLeft {
+  width: 32%;
+}
+.awardRight {
+  width: 68%;
+}
+footer {
+  background-color: #000;
+  padding: 10px 0;
+  text-align: center;
+  color: #fff;
+}
+footer p {
+  margin-top: 20px;
+}
+footer a {
+  color: #fff;
+  margin: 0px 5px;
+}
+footer a:hover {
+  color: red;
+}
